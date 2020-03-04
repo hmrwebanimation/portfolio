@@ -1,0 +1,60 @@
+body{
+  margin:0;
+  padding:0;
+  background:transparent;
+}
+
+.mapusa{
+  margin:0 auto;
+  margin-top:30px;
+  width:60%;
+}
+
+
+
+
+/* .mapusa path{
+   fill:green;
+  stroke:white;
+  stroke-width:2px;
+} */
+
+#red-line{
+  fill:#ff5000;
+  animation: areaname 0.5s ease-in-out;
+
+}
+
+#red-line:hover{
+  fill:#f8a580;
+}
+
+@keyframes areaname{
+  0%{
+    opacity:0;
+  }
+
+  5%{
+    transform:scale(4000);
+    opacity:0;
+  }
+
+  35%{
+    transform:scale(8000);
+    opacity:0.2;
+  }
+
+  55%{
+    transform:scale(12000);
+    opacity:0.7;
+  }
+
+  85%{
+    transform:scale(40000);
+    opacity:0.9;
+  }
+  100%{
+    opacity:1;
+
+  }
+}

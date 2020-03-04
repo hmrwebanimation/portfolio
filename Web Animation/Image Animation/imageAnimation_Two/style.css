@@ -1,0 +1,113 @@
+body{
+	padding:0;
+	margin:0;
+}
+
+.container-image{
+	width:400px;
+	height:600px;
+	margin:140px auto;
+	position:relative;
+	display:flex;
+	flex-wrap:wrap;
+
+}
+
+.container-image-small{
+	flex-basis:14px;
+	cursor:pointer;
+	position:relative;
+	transition:4s;
+	box-shadow:20px 12px 11px 17px rgba(12,11,3,0.1);
+}
+
+.container-image-small img{
+	width:100px;
+	height:150px;
+}
+
+.container-image-small::after{
+	content:"";
+	position:absolute;
+	width:100px;
+	height:30px;
+	bottom:-26px;
+	left:7px;
+	background:#043754;
+	transform:skewX(28deg);
+	overflow:hidden;
+}
+
+
+.container-image-small::before{
+	content:"";
+	position:absolute;
+	width:21px;
+	height:147px;
+	right:-18px;
+	top:17px;
+	background:#043888;
+	transform:skewY(62deg);
+	overflow:hidden;
+
+}
+
+.container-image:hover .container-image-small:nth-child(1){
+	transform:translate(55px,230px) rotate(360deg);
+}
+
+.container-image:hover .container-image-small:nth-child(2){
+	transform:translate(-255px,-130px) rotate(360deg);
+}
+
+.container-image:hover .container-image-small:nth-child(3){
+	transform:translate(-55px,430px) rotate(360deg);
+}
+
+.container-image:hover .container-image-small:nth-child(4){
+	transform:translate(355px,-130px) rotate(360deg);
+}
+
+.container-image:hover .container-image-small:nth-child(5){
+	transform:translate(155px,130px) rotate(360deg);
+}
+
+.container-image:hover .container-image-small:nth-child(6){
+	transform:translate(222px,-230px) rotate(360deg);
+}
+
+.container-image:hover .container-image-small:nth-child(7){
+	transform:translate(455px,-430px) rotate(360deg);
+}
+
+.container-image:hover .container-image-small:nth-child(8){
+	transform:translate(-155px,360px) rotate(360deg);
+}
+
+.container-image:hover .container-image-small:nth-child(9){
+	transform:translate(280px,440px) rotate(360deg);
+}
+.container-image:hover .container-image-small:nth-child(10){
+	transform:translate(200px,-230px) rotate(360deg);
+}
+.container-image:hover .container-image-small:nth-child(11){
+	transform:translate(550px,-333px) rotate(360deg);
+}
+.container-image:hover .container-image-small:nth-child(12){
+	transform:translate(160px,450px) rotate(360deg);
+}
+.container-image:hover .container-image-small:nth-child(13){
+	transform:translate(-233px,450px) rotate(360deg);
+}
+
+.container-image:hover .container-image-small:nth-child(14){
+	transform:translate(344px,-270px) rotate(360deg);
+}
+
+.container-image:hover .container-image-small:nth-child(15){
+	transform:translate(-365px,312px) rotate(360deg);
+}
+
+.container-image:hover .container-image-small:nth-child(16){
+	transform:translate(-210px,-230px) rotate(360deg);
+}

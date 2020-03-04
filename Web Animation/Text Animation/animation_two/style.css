@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+
+body{
+	font-family: 'Great Vibes', cursive;
+	margin:0 auto;
+	padding:2px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:300px;
+	background:#012e2d;
+}
+
+h1{
+	margin:0 auto;
+	padding-top:600px;
+	color:#051c20;
+	font-size:340px;
+	letter-spacing:22px;
+}
+
+h1 span{
+	display:table-cell;
+	margin:0;
+	padding:0;
+	animation:animate 3s linear infinite;
+}
+
+h1 span:nth-child(1){
+	animation-delay:0s;
+}
+h1 span:nth-child(2){
+	animation-delay:0.25s;
+}
+h1 span:nth-child(3){
+	animation-delay:0.5s;
+}
+h1 span:nth-child(4){
+	animation-delay:0.75s;
+}
+h1 span:nth-child(5){
+	animation-delay:1s;
+}
+h1 span:nth-child(6){
+	animation-delay:1.25s;
+}
+h1 span:nth-child(7){
+	animation-delay:1.5s;
+}
+h1 span:nth-child(8){
+	animation-delay:1.75s;
+}
+h1 span:nth-child(9){
+	animation-delay:2s;
+}
+h1 span:nth-child(10){
+	animation-delay:2.25s;
+}
+h1 span:nth-child(11){
+	animation-delay:2.5s;
+}
+h1 span:nth-child(12){
+	animation-delay:2.75s;
+}
+
+
+
+@keyframes animate{
+	0%,100%{
+		color:#01feb4;
+		filter:blur(3px);
+		text-shadow:0 0 10px #ff4e00,
+					0 0 20px #ff4e00,
+					0 0 30px #ff4e00,
+					0 0 50px #ff4e00,
+					0 0 100px #ff4e00,
+					0 0 200px #ff4e00,
+					0 0 400px #ff4e00
+
+	}
+	5%,95%{
+		color:#051c20;
+		filter:blur(0px);
+		text-shadow:0 0 10px 0 none;
+	}
+}

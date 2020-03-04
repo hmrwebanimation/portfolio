@@ -1,0 +1,66 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+
+
+.title{
+	height:25vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.images{
+	display:flex;
+	justify-content:space-around;
+}
+
+.images img{
+	width:100%;
+	height:100%;
+}
+.image-container{
+	position:relative;
+	height:400px;
+	width:500px;
+	border:8px solid green;
+}
+
+.transition-image{
+	position:absolute;
+	top:0px;
+	left:0px;
+	opacity:0;
+	transition:opacity 1s ease;
+}
+
+.transition-image:hover{
+	transition:3s;
+	opacity:1;
+}
+
+.fadein::after{
+	content:'Green Mountain Lake';
+	color:#bffcfc;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background:black;
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	opacity:0;
+	transition:opacity 1s ease;
+	font-weight:bold;
+	font-size:28px;
+	letter-spacing:2px;
+}
+
+.fadein:hover::after{
+	transition:3s;
+	opacity:0.6;
+}

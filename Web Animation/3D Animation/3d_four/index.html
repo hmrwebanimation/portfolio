@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slider with Materialize Plugins</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="carousel">
+        <div class="carousel-item">
+                <a  href="https://www.tutorialpoint.com" target="_blank"><img src="images/program.jpg"></a>
+                <h1>Programmer In Office</h1>
+        </div>
+        <div class="carousel-item">
+                <a  href="https://www.laravel.com" target="_blank"><img src="images/jungle.jpg"></a>
+                <h1>Jungle Trees</h1>
+        </div>
+        <div class="carousel-item">
+                <a  href="https://www.test.com" target="_blank"><img src="images/night.jpg"></a>
+                <h1>Night Scene</h1>
+        </div>
+        <div class="carousel-item">
+                <a  href="https://www.getbootstrap.com" target="_blank"><img src="images/city.jpg"></a>
+                <h1>City Busy</h1>
+        </div>
+        <div class="carousel-item">
+                <a  href="https://www.jquery.com" target="_blank"><img src="images/bird.jpg"></a>
+                <h1>Bird Stare</h1>
+        </div>
+      </div>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+    $(document).ready(function(){
+            $('.carousel').carousel();
+          });
+    </script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+input { width: 200px; height: 20px; margin: 3px;}
+textarea { width: 400px; height: 400px; margin: 3px; }
+button { display: block; margin-left: 3px;}
+.back{
+    position:relative;
+    display: none;
+    top:0;
+    width:1600px;
+    height:900px;
+    background-image:url(BG.jpg);
+    background-position:center;
+    background-size:cover;
+    overflow:hidden;
+}
+#card {
+    display: none;
+    
+}
+
+/* .text{
+    position:absolute;
+    
+    font-size:32px;
+    color:white;
+    font-weight:bold;
+    margin:30px 0 0 30px;
+    
+} */
+
+#card #cardName3{
+    position:absolute;
+    margin:140px 0 0 30px;
+    padding:260px 200px 260px 200px;
+    border:2px solid black;
+
+    font-size:32px;
+    color:black;
+    font-weight:bold;
+}
+
+
+#card .cardName1 {
+    position:absolute;
+    
+    font-size:32px;
+    color:black;
+    font-weight:bold;
+    margin:100px 0 0 40px;
+}
+
+
+#card .cardName2 {
+    position:absolute;
+    
+    font-size:32px;
+    color:black;
+    font-weight:bold;
+    margin:700px 0 0 380px;
+}
+
+.snowone{
+    position:absolute;
+    background-image:url(snowone.png);
+    background-repeat:repeat;
+    top:0;
+    left:0;
+    width:1600px;
+    height:900px;
+    overflow:hidden;
+    animation:snowingone 10s linear infinite;
+}
+
+
+@keyframes snowingone{
+    0%{
+        background-position:0px 0px;
+    }
+    100%{
+        background-position:800px 900px;
+    }
+}
+
+.snowtwo{
+    position:absolute;
+    background-image:url(snowtwo.png);
+    background-repeat:repeat;
+    top:0;
+    left:0;
+    width:1600px;
+    height:900px;
+    overflow:hidden;
+    animation:snowingtwo 10s linear infinite;
+}
+
+@keyframes snowingtwo{
+    0%{
+        background-position:0px 0px;
+    }
+    100%{
+        background-position:-100px 900px;
+    }
+}
+
+
+
+
+@media screen and (max-width:1920px){
+    .back{
+        position:relative;
+        display: none;
+        top:0;
+        width:1900px;
+        height:1062px;
+        background-image:url(BG.jpg);
+        background-position:center;
+        background-size:cover;
+        overflow:hidden;
+    }
+
+
+    .snowone{
+        position:absolute;
+        background-image:url(snowone.png);
+        background-repeat:repeat;
+        top:0;
+        left:0;
+        width:1900px;
+        height:1062px;
+        overflow:hidden;
+        animation:snowingone 10s linear infinite;
+    }
+    
+    
+    @keyframes snowingone{
+        0%{
+            background-position:0px 0px;
+        }
+        100%{
+            background-position:800px 900px;
+        }
+    }
+    
+    .snowtwo{
+        position:absolute;
+        background-image:url(snowtwo.png);
+        background-repeat:repeat;
+        top:0;
+        left:0;
+        width:1900px;
+        height:1062px;
+        overflow:hidden;
+        animation:snowingtwo 10s linear infinite;
+    }
+    
+    @keyframes snowingtwo{
+        0%{
+            background-position:0px 0px;
+        }
+        100%{
+            background-position:-100px 900px;
+        }
+    }
+    
+}

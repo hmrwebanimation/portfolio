@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>Greetings Card</title>
+	  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	  <link rel="stylesheet" href="style.css">
+	  <style>
+	  	
+	  </style>
+	  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	  <script>
+	  	
+	  </script>
+	</head>
+	<body>
+		<script src="greet.js"></script>
+		
+		<div class="back">
+			<div class="snowone"></div>
+			<div class="snowtwo"></div>
+			<div id="card">
+				<p class="cardName1">To <span id="cardName1"></span>,</p>
+				<p class="cardName2">From <span id="cardName2"></span></p>
+				<p><span id="cardName3"></span></p>
+				
+			</div>
+		 
+		</div>
+		
+		<form id="form">
+			<input type="text" class="tname" placeholder="To" id="first-name"><br>
+			<input type="text" class="fname" placeholder="From" id="last-name"><br>		
+			<textarea style="resize: none;" placeholder="Wish" id="greetings"></textarea>
+			<button type="submit" id="button" class="ui-state-default ui-corner-all" onclick="insertGreet();">
+				Generate
+			</button>
+		</form>
+		<script>
+	  	$("#form").submit(function(event){
+	  		$(this).hide(500, function(){
+	  			$("#card").fadeIn(500);
+	  		});
+
+			$(this).hide(10, function(){
+	  			$(".back").fadeIn(10);
+	  		});
+	  		
+	  		event.preventDefault();
+	  	});
+	  </script>
+	</body>
+</html>

@@ -1,0 +1,945 @@
+body{
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:transparent;
+}
+.container{
+    
+    width:1900px;
+    height:100%;
+    background:transparent;
+    display:flex;
+}
+
+
+/* .one{
+    margin-left:0;
+    width:830px;
+    height:937px;
+    background:linear-gradient(to left,red,blue,green);
+} */
+
+.one{
+    
+        position:absolute;
+        width:830px;
+        height:937px;
+
+        background-image: -moz-linear-gradient( 27deg, rgb(106,122,254) 0%, rgb(184,172,253) 15%, rgb(162,135,254) 23%, rgb(129,113,255) 32%, rgb(95,91,255) 44%, rgb(106,96,254) 68%, rgb(91,88,251) 86%, rgb(91,88,251) 100%, rgb(114,111,251) 100%);
+        background-image: -webkit-linear-gradient( 27deg, rgb(106,122,254) 0%, rgb(184,172,253) 15%, rgb(162,135,254) 23%, rgb(129,113,255) 32%, rgb(95,91,255) 44%, rgb(106,96,254) 68%, rgb(91,88,251) 86%, rgb(91,88,251) 100%, rgb(114,111,251) 100%);
+        background-image: -ms-linear-gradient( 27deg, rgb(106,122,254) 0%, rgb(184,172,253) 15%, rgb(162,135,254) 23%, rgb(129,113,255) 32%, rgb(95,91,255) 44%, rgb(106,96,254) 68%, rgb(91,88,251) 86%, rgb(91,88,251) 100%, rgb(114,111,251) 100%);
+  
+      
+      
+        
+        z-index:10;
+        animation:page-one 4s forwards;
+}
+
+
+
+
+
+@keyframes page-one{
+    0%{
+        transform:translateX(-200px); 
+        
+    }
+
+    20%{
+        transform:translateX(400px);
+        
+        
+    }
+
+    40%{
+        transform:translateX(400px);
+        
+        
+    }
+
+   
+
+    100%{
+        transform:translateX(-230px);
+    }
+}
+
+.one .woman{
+    margin-left:340px;
+    margin-top:-330px;
+    width:340px;
+    height:430px;
+    z-index:25;
+    animation:woman-dress 1.5s forwards;
+}
+
+@keyframes woman-dress{
+    0%{
+        width:280px;
+        
+    }
+}
+
+
+.toptext{
+    float:right;
+    font-family:Minion Variable Concept;
+    font-size:20px;
+    color:white;
+    text-align:right;
+    margin-right:30px;
+}
+
+
+
+.bar{
+    margin-top:25px;
+}
+
+.bar div{
+    
+    width:30px;
+    height:2px;
+    background-color:white;
+    margin-bottom:6px;
+    margin-left:30px;
+   
+}
+
+
+.bar .barthree{
+    
+    width:15px;
+    height:2px;
+    background-color:white;
+    margin-bottom:6px;
+    margin-left:30px;
+   
+}
+
+
+.brand{
+    position:relative;
+    margin-top:220px;
+    margin-left:60px;
+    color:white;
+    z-index:-2;
+}
+
+.brand h1{
+    font-family:Minion Variable Concept;
+    font-size:82px;
+    line-height:22px;
+}
+
+.product-icon{
+    position:relative;
+    margin-top:-1300px;
+    margin-left:60px;
+}
+
+.icon-one{
+    float:left;
+    box-sizing:border-box;
+    width:33%;
+    color:white;
+    margin:0;
+    
+}
+
+.icon-one h6{
+    opacity:0.4;
+}
+
+.icon-one i{
+    margin-left:40px;
+}
+
+
+.product-one{
+    width:100%;
+    height:937px;
+    margin-left:20px;
+    background-color:transparent;
+
+    
+
+    
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    animation: product-one 1s forwards;
+    z-index:22;
+    }
+
+    @keyframes product-one{
+        from{
+            transform: translateY(150px);
+        }
+
+        to{
+            transform: translateY(-450px);
+            
+        }
+
+        
+    }
+
+
+/* First Page Circle Animation */
+.circle-shape-one{
+    position:relative;
+    height:600px;
+    width:600px;
+    top:-320px;
+    left:170px;
+    background-image:url('image/shapeone.png');                
+    background-repeat:none;
+    border-radius:50%;
+    animation:circle-animation 10s linear infinite;
+}
+
+@keyframes circle-animation{
+    from{
+        transform:rotate(0deg);
+        
+        
+    }
+    to{
+        transform:rotate(360deg);
+        
+    }
+}
+
+/* End of Page One */
+
+
+
+
+.two{
+    position:absolute;
+    width:830px;
+    height:937px;
+    
+    background-image: -moz-linear-gradient( -17deg, rgb(244,95,116) 0%, rgb(247,135,135) 16%, rgb(250,96,126) 26%, rgb(247,75,103) 37%, rgb(248,81,100) 41%, rgb(249,87,97) 47%, rgb(244,95,116) 61%, rgb(250,93,106) 70%, rgb(239,73,93) 80%, rgb(250,76,100) 91%, rgb(242,66,88) 100%, rgb(242,66,88) 100%);
+    background-image: -webkit-linear-gradient( -17deg, rgb(244,95,116) 0%, rgb(247,135,135) 16%, rgb(250,96,126) 26%, rgb(247,75,103) 37%, rgb(248,81,100) 41%, rgb(249,87,97) 47%, rgb(244,95,116) 61%, rgb(250,93,106) 70%, rgb(239,73,93) 80%, rgb(250,76,100) 91%, rgb(242,66,88) 100%, rgb(242,66,88) 100%);
+    background-image: -ms-linear-gradient( -17deg, rgb(244,95,116) 0%, rgb(247,135,135) 16%, rgb(250,96,126) 26%, rgb(247,75,103) 37%, rgb(248,81,100) 41%, rgb(249,87,97) 47%, rgb(244,95,116) 61%, rgb(250,93,106) 70%, rgb(239,73,93) 80%, rgb(250,76,100) 91%, rgb(242,66,88) 100%, rgb(242,66,88) 100%);
+    
+
+    
+    z-index:8;
+    animation:page-two 4s forwards;
+    
+}
+
+    @keyframes page-two{
+        0%{
+            transform:translateX(200px);
+                 
+        }
+    
+        20%{
+            transform:translateX(600px)
+            
+        }
+    
+        
+
+
+        90%{
+            transform:translateX(600px);
+            
+            
+        }
+    
+        100%{
+            transform:translateX(100px);
+            
+        }
+
+
+      
+    }
+
+ 
+
+
+
+
+    .two .jewelery{
+        position:absolute;
+        margin-left:370px;
+        margin-top:-160px;
+        width:340px;
+        height:340px;
+        z-index:25;
+        
+        animation:jewelery 4s forwards;
+    }
+    
+    @keyframes jewelery{
+        0%{
+            transform:translateX(50px);
+            
+        }
+
+        20%{
+            transform:translateX(50px);
+            
+        }
+
+        90%{
+            transform:translateX(50px);
+            
+        }
+
+        100%{
+            transform:translateX(-50px);
+        }
+
+       
+    }
+    
+    .toptext-two{
+        float:right;
+        font-family:Minion Variable Concept;
+        font-size:20px;
+        color:white;
+        text-align:right;
+        margin-right:30px;
+    }
+
+    .toptext-two h6{
+        margin-top:-6px;
+    }
+    
+        
+    .brand-two{
+        position:relative;
+        margin-top:260px;
+        margin-left:60px;
+        color:white;
+        z-index:22;
+    }
+    
+    .brand-two h1{
+        font-family:Minion Variable Concept;
+        font-size:78px;
+        line-height:22px;
+    }
+    
+    .product-icon-two{
+        position:relative;
+        margin-top:-600px;
+        margin-left:60px;
+    }
+    
+    .icon-two{
+        float:left;
+        box-sizing:border-box;
+        width:33%;
+        color:white;
+        margin:0;
+        
+    }
+    
+    .icon-two h6{
+        opacity:0.4;
+    }
+    
+    .icon-two i{
+        margin-left:40px;
+    }
+
+
+    .product-two{
+        width:100%;
+        height:937px;
+        margin-left:40px;
+        background-color:transparent;
+    
+        /* background-image:url(image/jewelery.png); */
+    
+        
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        animation: product-two 1s forwards;
+        z-index:22;
+        }
+    
+        @keyframes product-two{
+            from{
+                transform: translateY(600px);
+            }
+    
+            to{
+                transform: translateY(200px);
+            }
+        }
+        
+        
+
+        /* Second Page Circle Animation */
+.circle-shape-two{
+    position:absolute;
+    height:500px;
+    width:500px;
+    top:140px;
+    margin-left:190px;
+    background-image:url('image/shapethree.png');
+    background-repeat:none;
+    border-radius:50%;
+    animation:circle-animation 10s linear infinite;
+}
+
+@keyframes circle-animation{
+    from{
+        transform:rotate(0deg);
+        opacity:0;
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+
+
+    /* End of Page Two */
+.three{
+    position:absolute;
+    margin-left:-6px;
+    width:830px;
+    height:937px;
+
+    background-image: -moz-linear-gradient( -11deg, rgb(38,38,38) 0%, rgb(31,31,31) 19%, rgb(32,32,32) 40%, rgb(30,30,30) 60%, rgb(31,31,31) 79%, rgb(23,23,23) 100%, rgb(23,23,23) 100%);
+    background-image: -webkit-linear-gradient( -11deg, rgb(38,38,38) 0%, rgb(31,31,31) 19%, rgb(32,32,32) 40%, rgb(30,30,30) 60%, rgb(31,31,31) 79%, rgb(23,23,23) 100%, rgb(23,23,23) 100%); 
+    background-image: -ms-linear-gradient( -11deg, rgb(38,38,38) 0%, rgb(31,31,31) 19%, rgb(32,32,32) 40%, rgb(30,30,30) 60%, rgb(31,31,31) 79%, rgb(23,23,23) 100%, rgb(23,23,23) 100%);
+    
+    z-index:6;
+    animation:page-three 4s forwards;
+}
+
+    @keyframes page-three{
+        0%{
+            transform:translateX(930px);
+        }
+        
+        100%{
+            transform:translateX(930px);
+        }
+    }
+
+    .three .perl-image{
+        margin-top:-160px;
+        margin-left:370px;
+        animation:perl-animation 4s forwards;
+    }
+
+    @keyframes perl-animation{
+        0%{
+            transform:translateX(0px);
+        }
+
+        20%{
+            transform:translateX(100px);
+        }
+
+        90%{
+            transform:translateX(100px);
+        }
+
+        100%{
+            transform:translateX(0px);
+        }
+    }
+
+
+    .toptext-three{
+        float:right;
+        font-family:Minion Variable Concept;
+        font-size:20px;
+        color:#d6b4a3;
+        text-align:right;
+        margin-right:30px;
+    }
+
+    .toptext-three h6{
+        margin-top:-6px;
+    }
+    
+        
+    .brand-three{
+        position:relative;
+        margin-top:260px;
+        margin-left:60px;
+        color:#d6b4a3;
+        z-index:22;
+    }
+    
+    .brand-three h1{
+        font-family:Minion Variable Concept;
+        font-size:82px;
+        line-height:24px;
+    }
+    
+    .product-icon-three{
+        position:relative;
+        margin-top:-750px;
+        margin-left:60px;
+    }
+    
+    .icon-three{
+        float:left;
+        box-sizing:border-box;
+        width:33%;
+        color:#d6b4a3;
+        margin:0;
+        
+    }
+    
+    .icon-three h6{
+        margin-bottom:-2px;
+        opacity:0.4;
+    }
+    
+    .icon-three i{
+        margin-left:40px;
+        margin-top:8px;
+        font-size:26px;
+    }
+
+
+    .product-three{
+        width:100%;
+        height:937px;
+        margin-left:40px;
+        background-color:transparent;
+    
+        /* background-image:url(image/perltwo.png); */
+    
+        
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        animation: product-three 1s forwards;
+        z-index:22;
+        }
+    
+        @keyframes product-three{
+            from{
+                transform: translateY(400px);
+            }
+    
+            to{
+                transform: translateY(180px);
+            }
+        }
+        
+        
+
+        /* Second Page Circle Animation */
+.circle-shape-three{
+    position:absolute;
+    height:500px;
+    width:500px;
+    margin-top:-400px;
+    margin-left:240px;
+    background-image:url('image/shapetwo.png');
+    background-repeat:none;
+    border-radius:50%;
+    animation:circle-animation 10s linear infinite;
+}
+
+@keyframes circle-animation{
+    from{
+        transform:rotate(0deg);
+        opacity:0;
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+
+
+/* End of Three */
+
+
+.four{
+    position:absolute;
+    margin-left:-6px;
+    width:830px;
+    height:937px;
+
+    background-image: -moz-linear-gradient( -11deg, rgb(38,38,38) 0%, rgb(31,31,31) 19%, rgb(32,32,32) 40%, rgb(30,30,30) 60%, rgb(31,31,31) 79%, rgb(23,23,23) 100%, rgb(23,23,23) 100%);
+    background-image: -webkit-linear-gradient( -11deg, rgb(38,38,38) 0%, rgb(31,31,31) 19%, rgb(32,32,32) 40%, rgb(30,30,30) 60%, rgb(31,31,31) 79%, rgb(23,23,23) 100%, rgb(23,23,23) 100%); 
+    background-image: -ms-linear-gradient( -11deg, rgb(38,38,38) 0%, rgb(31,31,31) 19%, rgb(32,32,32) 40%, rgb(30,30,30) 60%, rgb(31,31,31) 79%, rgb(23,23,23) 100%, rgb(23,23,23) 100%);
+ 
+    z-index:6;
+    animation:page-four 1s forwards;
+}
+
+    @keyframes page-four{
+        0%{
+            transform:translateX(1500px);
+        }
+        
+        100%{
+            transform:translateX(1760px);
+        }
+    }
+
+    .four .perl-image{
+        margin-top:-160px;
+        margin-left:370px;
+        animation:perl-animation-two 1s forwards;
+    }
+
+    @keyframes perl-animation-two{
+        0%{
+            transform:translateX(0px);
+        }
+
+        20%{
+            transform:translateX(100px);
+        }
+
+        90%{
+            transform:translateX(100px);
+        }
+
+        100%{
+            transform:translateX(0px);
+        }
+    }
+
+
+    .toptext-four{
+        float:right;
+        font-family:Minion Variable Concept;
+        font-size:20px;
+        color:#d6b4a3;
+        text-align:right;
+        margin-right:30px;
+    }
+
+    .toptext-four h6{
+        margin-top:-6px;
+    }
+    
+        
+    .brand-four{
+        position:relative;
+        margin-top:260px;
+        margin-left:60px;
+        color:#d6b4a3;
+        z-index:22;
+    }
+    
+    .brand-four h1{
+        font-family:Minion Variable Concept;
+        font-size:82px;
+        line-height:24px;
+    }
+    
+    .product-icon-four{
+        position:relative;
+        margin-top:-750px;
+        margin-left:60px;
+    }
+    
+    .icon-four{
+        float:left;
+        box-sizing:border-box;
+        width:33%;
+        color:#d6b4a3;
+        margin:0;
+        
+    }
+    
+    .icon-four h6{
+        margin-bottom:-2px;
+        opacity:0.4;
+    }
+    
+    .icon-four i{
+        margin-left:40px;
+        margin-top:8px;
+        font-size:26px;
+    }
+
+
+    .product-four{
+        width:100%;
+        height:937px;
+        margin-left:40px;
+        background-color:transparent;
+    
+        /* background-image:url(image/perltwo.png); */
+    
+        
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        animation: product-four 1s forwards;
+        z-index:22;
+        }
+    
+        @keyframes product-four{
+            from{
+                transform: translateY(400px);
+            }
+    
+            to{
+                transform: translateY(180px);
+            }
+        }
+        
+        
+
+        /* Second Page Circle Animation */
+.circle-shape-four{
+    position:absolute;
+    height:500px;
+    width:500px;
+    margin-top:-400px;
+    margin-left:240px;
+    background-image:url('image/shapetwo.png');
+    background-repeat:none;
+    border-radius:50%;
+    animation:circle-animation 10s linear infinite;
+}
+
+@keyframes circle-animation{
+    from{
+        transform:rotate(0deg);
+        opacity:0;
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+
+
+/* End of Four */
+
+.five{
+    position:absolute;
+    margin-left:-6px;
+    width:830px;
+    height:937px;
+
+    background-image: -moz-linear-gradient( -11deg, rgb(38,38,38) 0%, rgb(31,31,31) 19%, rgb(32,32,32) 40%, rgb(30,30,30) 60%, rgb(31,31,31) 79%, rgb(23,23,23) 100%, rgb(23,23,23) 100%);
+    background-image: -webkit-linear-gradient( -11deg, rgb(38,38,38) 0%, rgb(31,31,31) 19%, rgb(32,32,32) 40%, rgb(30,30,30) 60%, rgb(31,31,31) 79%, rgb(23,23,23) 100%, rgb(23,23,23) 100%); 
+    background-image: -ms-linear-gradient( -11deg, rgb(38,38,38) 0%, rgb(31,31,31) 19%, rgb(32,32,32) 40%, rgb(30,30,30) 60%, rgb(31,31,31) 79%, rgb(23,23,23) 100%, rgb(23,23,23) 100%);
+ 
+    z-index:6;
+    animation:page-five 1s forwards;
+}
+
+    @keyframes page-five{
+        0%{
+            transform:translateX(1760px);
+        }
+        
+        100%{
+            transform:translateX(1900px);
+        }
+    }
+
+    .five .perl-image{
+        margin-top:-160px;
+        margin-left:370px;
+        animation:perl-animation-three 1s forwards;
+    }
+
+
+    
+    @keyframes perl-animation-three{
+        0%{
+            transform:translateX(0px);
+        }
+
+        20%{
+            transform:translateX(100px);
+        }
+
+        90%{
+            transform:translateX(100px);
+        }
+
+        100%{
+            transform:translateX(0px);
+        }
+    }
+
+
+
+    .toptext-five{
+        float:right;
+        font-family:Minion Variable Concept;
+        font-size:20px;
+        color:#d6b4a3;
+        text-align:right;
+        margin-right:30px;
+    }
+
+    .toptext-five h6{
+        margin-top:-6px;
+    }
+    
+        
+    .brand-five{
+        position:relative;
+        margin-top:260px;
+        margin-left:60px;
+        color:#d6b4a3;
+        z-index:22;
+    }
+    
+    .brand-five h1{
+        font-family:Minion Variable Concept;
+        font-size:82px;
+        line-height:24px;
+    }
+    
+    .product-icon-five{
+        position:relative;
+        margin-top:-750px;
+        margin-left:60px;
+    }
+    
+    .icon-five{
+        float:left;
+        box-sizing:border-box;
+        width:33%;
+        color:#d6b4a3;
+        margin:0;
+        
+    }
+    
+    .icon-five h6{
+        margin-bottom:-2px;
+        opacity:0.4;
+    }
+    
+    .icon-five i{
+        margin-left:40px;
+        margin-top:8px;
+        font-size:26px;
+    }
+
+
+    .product-five{
+        width:100%;
+        height:937px;
+        margin-left:40px;
+        background-color:transparent;
+    
+        /* background-image:url(image/perltwo.png); */
+    
+        
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        animation: product-five 1s forwards;
+        z-index:22;
+        }
+    
+        @keyframes product-five{
+            from{
+                transform: translateY(400px);
+            }
+    
+            to{
+                transform: translateY(180px);
+            }
+        }
+        
+        
+
+        /* Second Page Circle Animation */
+.circle-shape-five{
+    position:absolute;
+    height:500px;
+    width:500px;
+    margin-top:-400px;
+    margin-left:240px;
+    background-image:url('image/shapetwo.png');
+    background-repeat:none;
+    border-radius:50%;
+    animation:circle-animation 10s linear infinite;
+}
+
+@keyframes circle-animation{
+    from{
+        transform:rotate(0deg);
+        opacity:0;
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+
+
+/* End of Five */
+
+
+    
+
+   
+
+
+        /* .product-three{
+            width:100%;
+            height:800px;
+            margin:0px auto;
+            left:300px;
+            background-color:transparent;
+        
+            /* background-image:url(image/perl.png); */
+        
+            
+            /* background-repeat:no-repeat;
+            background-attachment: fixed;
+            animation: product-three 2s infinite;
+            }
+        
+            @keyframes product-three{
+                from{
+                    transform: translateY(850px);
+                }
+        
+                to{
+                    transform: translateY(500px);
+                }
+            }  */
+ */
+
+
+
+
+/* Third Page Circle Animation */
+/* .circle-shape-three{
+    position:relative;
+    height:500px;
+    width:500px;
+    top:200px;
+    background-image:url('image/shapeone.png');
+    background-repeat:none;
+    border-radius:50%;
+    animation:circle-animation 10s linear infinite;
+}
+
+@keyframes circle-animation{
+    from{
+        transform:rotate(0deg);
+        opacity:0;
+    }
+    to{
+        transform:rotate(360deg);
+    }
+} */
+

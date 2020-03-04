@@ -1,0 +1,55 @@
+.image-group{
+	margin:200px auto;
+	perspective:800px;
+	perspective-origin:200px 200px 200px 200px ;
+}
+
+
+.all{
+	position:relative;
+	margin:200px auto;
+	height:400px;
+	width:400px;
+	transform-style:preserve-3d;
+	animation:revolve 3s ease-in-out infinite;
+}
+
+.all img{
+	position:absolute;
+	width:400px;
+	height:400px;
+	opacity:0.6;
+}
+
+.all img:nth-child(1){
+	transform:rotateY(0deg) translateZ(200px);
+}
+
+.all img:nth-child(2){
+	transform:rotateY(90deg) translateZ(200px);
+}
+
+.all img:nth-child(3){
+	transform:rotateY(180deg) translateZ(200px);
+}
+
+.all img:nth-child(4){
+	transform:rotateY(-90deg) translateZ(200px);
+}
+
+.all img:nth-child(5){
+	transform:rotateX(90deg) translateZ(200px);
+}
+
+.all img:nth-child(6){
+	transform:rotateX(-90deg) translateZ(200px);
+}
+
+@keyframes revolve{
+	from{
+		transform:rotateX(0deg) rotateY(0deg);
+	}
+	to{
+		transform:rotateX(360deg) rotateY(360deg);
+	}
+}

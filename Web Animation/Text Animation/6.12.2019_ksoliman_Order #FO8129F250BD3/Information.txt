@@ -1,0 +1,14 @@
+Hi there,
+we would like to have a simple CSS animation of a count down.
+So first the 3 appears while becoming smaller and fading away, 
+then the 2 appears while becoming a bit smaller and fading away and the same for 1.
+That's it. After the 1 it is over. It should take exactly 2 seconds 
+from when the 3 appears until the 1 disappears. Al that just with CSS and HTML. 
+Please, no Javascript. The number could start with a height of 250px. 
+The font is not so important.
+Can you do this?
+
+Just for your information, we will display this centered (horizontal & vertical) on top of an 
+HTML page as a countdown before a screen-recording starts.
+
+Sorry It should take exactly 3 seconds I ment

@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:500&display=swap');
+
+
+*{
+	margin:0;
+	padding:0;
+	background:transparent;
+	cursor:none;
+}
+
+#container{
+	position:fixed;
+	width:480px;
+	height:40px;
+	padding:12px;
+	
+	
+}
+
+p{
+	opacity:0;
+}
+
+
+.sentence p:nth-child(1){
+	
+	position:fixed;
+	display:flex;
+	font-family: 'Roboto', sans-serif;
+	font-size:50px;
+	color:#F2F0E5;
+	
+	text-align:center;
+}
+
+.sentence p:nth-child(2){
+	
+	position:fixed;
+	display:flex;
+	font-family: 'Roboto', sans-serif;
+	font-size:50px;
+	color:#F2F0E5;
+	
+	text-align:center;
+}
+
+.sentence p:nth-child(1){
+	animation:animate 3s steps(20);
+	
+	overflow:hidden;
+	
+	white-space: nowrap;
+}
+
+.sentence p:nth-child(2){
+	animation:animatetwo 3s steps(21);
+	animation-delay:4s;
+	overflow:hidden;
+	
+	white-space: nowrap;
+	-webkit-animation-fill-mode: forwards; 
+	  -moz-animation-fill-mode: forwards;    
+	  -o-animation-fill-mode: forwards;     
+	  -ms-animation-fill-mode: forwards;    
+	  animation-fill-mode: forwards; 
+	
+}
+
+
+@keyframes animate{
+	from{
+		width:0;
+		opacity:1;
+	}
+	to{
+		width:20ch;
+		opacity:1;
+		
+	}
+
+	
+	
+
+}
+
+
+@keyframes animatetwo{
+	
+	from{
+		width:0;
+		opacity:1;
+	}
+	to{
+		width:21ch;
+		opacity:1;
+
+	}
+
+	
+}
+
+
+
+

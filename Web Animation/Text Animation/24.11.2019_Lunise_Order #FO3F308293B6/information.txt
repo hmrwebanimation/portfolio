@@ -1,0 +1,10 @@
+https://startup-ui-kit-f4c8cc.webflow.io/about-us
+this is where the text animation will go, on the red banner.
+
+
+I can send you the photo, message, font and color information.
+This is an example to what I want (video) but no looping. 
+I want it to auto start with the page load "We love our company." and 
+after few seconds change to "We love your company'" and then stop.
+
+The font is Roboto, color F2F0E5.
