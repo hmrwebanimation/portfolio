@@ -1,0 +1,318 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.header{
+    width:100%;
+    height:120px;
+    background-color:#1C110B;
+}
+
+.header .logo{
+    position:relative;
+    width:20%;
+    float:left;
+    overflow:hidden;
+    margin:20px 40px;
+}
+
+.header .logo img{
+    width:60px;
+    height:60px;
+}
+
+.header .navigation{
+    position:relative;
+    width:40%;
+    float:right;
+    overflow:hidden;
+
+}
+
+.header ul{
+    margin-top:45px;
+    display:flex;
+    float:right;
+}
+
+.header ul li{
+    margin-right:40px;
+    list-style-type:none;
+
+}
+
+.header ul li a{
+    color:#AFF443;
+    text-decoration:none;
+    font-size:20px;
+}
+
+
+.main-body .left-side{
+    position:relative;
+    float:left;
+    width:33%;
+    overflow:hidden;
+    box-sizing:border-box;
+    padding:0 20px;
+}
+
+.main-body .middle{
+    position:relative;
+    float:left;
+    width:33%;
+    overflow:hidden;
+    box-sizing:border-box;
+    padding:0 20px;
+}
+
+.main-body .right-side{
+    position:relative;
+    float:left;
+    width:33%;
+    overflow:hidden;
+    box-sizing:border-box;
+    padding:0 20px;
+}
+
+.main-body .contact-here{
+    font-size:32px;
+    color:red;
+    text-align:center;
+}
+
+.main-body .contact-here:hover{
+    color:blue;
+}
+
+.main-body .contact{
+ width:40%;
+ margin:30px;
+ padding:60px;
+ box-shadow:1px 1px 4px 1px #cccbc6;
+ text-align:center;
+}
+
+.main-body .contact:hover{
+    box-shadow:2px 2px 8px 2px #35395a;
+}
+
+.main-body .contact input{
+    width:340px;
+    height:25px;
+    margin-bottom:8px;
+    margin-left:6px;
+}
+
+.main-body .contact button{
+    padding:12px;
+    border:0;
+    border-radius:4px;
+    background-color:red;
+    color:white;
+    font-size:16px;
+
+}
+
+.team-body h1{
+    background-color:#f4f4f4;
+    margin:20px 40px;
+    padding:22px;
+    color:blue;
+    font-size:54px;
+    text-align:center;
+    border-radius:14px;
+    box-shadow:1px 1px 2px 1px #B8CFBF;
+}
+
+.team-body .first{
+    position:relative;
+    margin:35px;
+    width:28%;
+    box-shadow:border-box;
+    float:left;
+    padding:120px;
+    box-sizing:border-box;
+    overflow:hidden;
+    box-shadow:1px 1px 2px 1px #6D7A71;
+    border-radius:22px;
+}
+
+.team-body .first img{
+    width:315px;
+    height:315px;
+    border-radius:50%;
+    margin-top:-70px;
+    margin-left:-35px;
+}
+
+.team-body .first h3{
+    font-family:arial;
+    color:#0C4D12;
+    text-align:center;
+    padding:12px;
+    box-shadow:1px 1px 1px 1px #6D7A72;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+}
+
+.team-body .first h6{
+    font-family:arial;
+    color:#0C4D12;
+    text-align:center;
+    margin:0;
+}
+
+
+.portfolio-container .graphic{
+    position:relative;
+    margin:50px 50px;
+    width:44%;
+    float:left;
+    box-sizing:border-box;
+    box-shadow:1px 2px 3px 1px #81909C;
+    padding:80px;
+    overflow:hidden;
+    border-radius:35px;
+
+}
+
+.portfolio-container .graphic img{
+    margin:0 55px;
+    height:550px;
+    width:550px;
+    border-radius:20px;
+}
+
+.portfolio-container h1{
+    text-align:center;
+    padding:11px;
+    background:rgb(23, 23, 53);
+    color:rgb(175, 210, 226);
+    margin:20px 620px;
+    letter-spacing:4px;
+    border-radius:22px;
+}
+
+.portfolio-container h1:hover{
+    background:rgb(4, 58, 46);
+}
+
+.portfolio-container .graphic h6{
+    text-align:center;
+    color:#37093B;
+    font-weight:bold;
+}
+
+.portfolio-container .graphic h6:hover{
+    text-align:center;
+    color:blue;
+    font-weight:bold;
+
+}
+
+.about-container h1{
+    margin:2% 30%;
+    background:rgb(5, 50, 56);
+    padding:12px;
+    text-align:center;
+    color:rgb(136, 209, 238);
+    border-radius:10px;
+    font-size:27px;
+    box-shadow:1px 1px 1px 1px rgb(99, 97, 97);
+}
+
+.about-container h1:hover{
+    color:greenyellow;
+}
+
+.about-container .about-box{
+    position:relative;
+    padding:12px 26px;
+    margin:2% 5%;
+    box-shadow:1px 1px 1px 1px rgb(148, 145, 145);
+    border-radius:20px;
+}
+
+.about-container .about-box p{
+    color:rgb(2, 46, 42);
+    font-size:22px;
+    line-height:32px;
+}
+
+.footer li{
+    list-style-type:none;
+}
+
+.footer .one img{
+    width:80px;
+    height:80px;
+}
+/* .footer .one li a{
+    color:pink;
+    text-decoration:none;
+
+} */
+
+.footer .one,.footer .two,.footer .three,.footer .four{
+    position:relative;
+    margin:40px 0px 20px 80px;
+    width:20%;
+    float:left;
+    box-sizing:border-box;
+    overflow:hidden;
+}
+
+.footer{
+    position:relative;
+    clear:both;
+    width:100%;
+    height:200px;
+    background-color:#172033;
+    border-top:4px solid green;
+}
+
+.footer .c-text{
+    margin-top:160px;
+}
+
+.footer .three{
+    display:flex;
+    margin:70px auto;
+}
+
+.footer .three img{
+    width:30px;
+    height:30px;
+    margin:0 10px;
+}
+
+.footer .four input{
+    background:#313643;
+    border:1px solid #6e7382;
+    border-radius:7px;
+    height:23px;
+    width:144px;
+    padding:2px;
+}
+
+.footer .four label{
+    color:white;
+    margin-right:4px;
+    font-size:19px;
+}
+
+.footer .two li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+
+}
+
+.footer .copyright{
+
+    color:green;
+    font-size:12px;
+    text-align:center;
+}
