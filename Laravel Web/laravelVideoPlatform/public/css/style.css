@@ -1,0 +1,64 @@
+.col-md-4 img{
+  border-radius:100%;
+  width:200px;
+  margin:30px;
+}
+
+
+.video-present{
+  float:right;
+}
+
+
+
+.video-present .title{
+  margin-top:40px;
+}
+
+.video-present p{
+  margin-top:40px;
+  margin-bottom:40px;
+}
+
+.video-present ul li{
+  list-style:none;
+}
+
+.video-present li{
+  margin-right:20px;
+
+}
+
+.video-present .nav-pills{
+  margin-bottom:30px;
+}
+.video-present .fa-eye,.video-present .fa-edit,.video-present .fa-trash{
+  margin-right:6px;
+}
+
+.video-present .fa-thumbs-up,.video-present .fa-thumbs-down,.video-present .fa-comment{
+  margin-right:6px;
+}
+
+.video-present video{
+  width:70%;
+  height:auto;
+
+}
+
+.video-categories{
+  margin:20px 0px 60px 300px;
+
+}
+
+.video-categories h4{
+  color:green;
+}
+
+.search-position{
+  margin:20px 0px 0px 300px;
+}
+
+.search-position button{
+  margin-left:20px;
+}
